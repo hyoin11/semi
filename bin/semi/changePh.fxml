@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="200.0" prefWidth="400.0"
+	style="-fx-background-color: white;">
+	<children>
+		<Label layoutX="30.0" layoutY="40" text="전화번호" 
+		style="-fx-font-weight: bold; -fx-font-size: 16;" />
+		<TextField fx:id="changePh" layoutX="110.0" layoutY="30.0" 
+		prefHeight="40.0" prefWidth="250.0" style="-fx-border-color: black;" />
+		<Button fx:id="btnPhDup" layoutX="30.0" layoutY="80.0" prefHeight="20.0" prefWidth="60.0" text="중복확인"
+		style="-fx-border-color: black; -fx-background-color: white; -fx-text-fill: black; -fx-font-size: 10;"/>
+		<Label fx:id="txtPhDup" layoutX="150.0" layoutY="85"
+		style="-fx-font-size: 10;"/>
+		<Button fx:id="changeBtnPh" layoutX="30.0" layoutY="130.0" text="전화번호 변경" prefHeight="40.0" prefWidth="330.0" 
+		style="-fx-border-color: white; -fx-background-color: black; -fx-text-fill: white; -fx-font-size: 16; -fx-font-weight: bold;" />
+	</children>
+</AnchorPane>
+

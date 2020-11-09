@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.Background?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="480.0" prefWidth="720.0"
+	fx:controller="semi.RootController">
+	<AnchorPane >
+		<ImageView fitHeight="480.0" fitWidth="720.0" opacity="0.5">
+			<image><Image url="@studycafe.jpeg" /></image>
+		</ImageView>
+		<children>
+			<ImageView layoutX="60.0" layoutY="60.0">
+				<image><Image url="@image1.png" /></image>
+			</ImageView>
+			<Label layoutX="100.0" layoutY="100.0" text="STUDY CAFE" 
+			style="-fx-font-size: 80;"/>
+			<ImageView layoutX="600.0" layoutY="120.0" >
+				<image><Image url="@image3.png" /></image>
+			</ImageView>
+			<Button fx:id="btnLogin" layoutX="210.0" layoutY="270.0" prefHeight="50" prefWidth="300" text="로그인"
+			style="-fx-border-color: black; -fx-background-color: white; -fx-text-fill: black; -fx-font-size: 16; -fx-font-weight: bold;" />
+			<Button fx:id="btnFindId" layoutX="210.0" layoutY="350.0" prefHeight="50" prefWidth="90" text="아이디찾기"	
+			style="-fx-border-color: black; -fx-background-color: white; -fx-text-fill: black; -fx-font-size: 12; -fx-font-weight: bold;" />
+			<Button fx:id="btnFindPass" layoutX="315.0" layoutY="350.0" prefHeight="50" prefWidth="90" text="비밀번호찾기"	
+			style="-fx-border-color: black; -fx-background-color: white; -fx-text-fill: black; -fx-font-size: 12; -fx-font-weight: bold;" />
+			<Button fx:id="btnAdd" layoutX="420.0" layoutY="350.0" prefHeight="50" prefWidth="90" text="회원가입"	
+			style="-fx-border-color: black; -fx-background-color: white; -fx-text-fill: black; -fx-font-size: 12; -fx-font-weight: bold;" />
+		</children>
+	</AnchorPane>
+</StackPane>
+

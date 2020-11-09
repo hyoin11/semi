@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="580.0" prefWidth="310.0"
+	style="-fx-background-color: white;">
+	<children>
+		<Label layoutX="30.0" layoutY="30.0" text="아이디" 
+		style="-fx-font-weight: bold; -fx-font-size: 12;"/>
+		<TextField fx:id="addId" layoutX="30.0" layoutY="55.0" 
+		prefHeight="40.0" prefWidth="250.0" style="-fx-border-color: black;" />
+		<Button fx:id="addBtnIdDup" layoutX="30.0" layoutY="100.0" prefHeight="20.0" prefWidth="60.0" text="중복확인"
+		style="-fx-border-color: black; -fx-background-color: white; -fx-text-fill: black; -fx-font-size: 10;"/>
+		<Label fx:id="txtIdDup" layoutX="100.0" layoutY="105.0"
+		style="-fx-font-size: 10;"/>
+		<Label layoutX="30.0" layoutY="135.0" text="비밀번호" 
+		style="-fx-font-weight: bold; -fx-font-size: 12;"/>
+		<TextField fx:id="addPass" layoutX="30.0" layoutY="160.0" 
+		prefHeight="40.0" prefWidth="250.0" style="-fx-border-color: black;" />
+		<Label layoutX="30.0" layoutY="220.0" text="이름" 
+		style="-fx-font-weight: bold; -fx-font-size: 12;"/>
+		<TextField fx:id="addName" layoutX="30.0" layoutY="245.0" 
+		prefHeight="40.0" prefWidth="250.0" style="-fx-border-color: black;" />
+		<Label layoutX="30.0" layoutY="305.0" text="전화번호" 
+		style="-fx-font-weight: bold; -fx-font-size: 12;"/>
+		<TextField fx:id="addPh" layoutX="30.0" layoutY="330.0" 
+		prefHeight="40.0" prefWidth="250.0" style="-fx-border-color: black;" />
+		<Button fx:id="addBtnPhDup" layoutX="30.0" layoutY="375.0" prefHeight="20.0" prefWidth="60.0" text="중복확인"
+		style="-fx-border-color: black; -fx-background-color: white; -fx-text-fill: black; -fx-font-size: 10;"/>
+		<Label fx:id="txtPhDup" layoutX="100.0" layoutY="380.0"
+		style="-fx-font-size: 10;"/>
+		<Label layoutX="30.0" layoutY="410.0" text="이메일 (선택)" 
+		style="-fx-font-weight: bold; -fx-font-size: 12;"/>
+		<TextField fx:id="addEmail" layoutX="30.0" layoutY="435.0" 
+		prefHeight="40.0" prefWidth="250.0" style="-fx-border-color: black;" />
+		<Button fx:id="addBtnAdd" layoutX="30.0" layoutY="505.0" text="회원가입" prefHeight="40.0" prefWidth="250.0" 
+		style="-fx-border-color: white; -fx-background-color: black; -fx-text-fill: white; -fx-font-size: 16; -fx-font-weight: bold;" />
+	</children>
+</AnchorPane>
+

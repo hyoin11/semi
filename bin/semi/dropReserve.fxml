@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="420.0" prefWidth="315.0"
+	style="-fx-background-color: white;">
+	<children>
+		<Label layoutX="30.0" layoutY="30.0" text="예약정보" 
+		style="-fx-font-weight: bold; -fx-font-size: 18;"/>
+		<Separator layoutX="20.0" layoutY="65.0" prefWidth="275" />
+		<Label layoutX="30.0" layoutY="80.0" text="취소할 예약을 선택하세요." 
+		style="-fx-font-weight: bold; -fx-font-size: 16;"/>
+		<ListView fx:id="reserveList" layoutX="30.0" layoutY="120.0" 
+		prefHeight="200.0" prefWidth="250.0" style="-fx-border-color: black; -fx-font-size: 13;" />
+		<Button fx:id="btnDropReserve" layoutX="30.0" layoutY="340" text="확인" prefHeight="40.0" prefWidth="250.0" 
+		style="-fx-border-color: white; -fx-background-color: black; -fx-text-fill: white; -fx-font-size: 16; -fx-font-weight: bold;" />
+	</children>
+</AnchorPane>
+
